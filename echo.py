@@ -1,4 +1,4 @@
-import requests
+"""import requests
 
 API_link = "https://api.telegram.org/bot1268048580:AAF4imj0o0N7OC2ZIa4j9b1xtPwS-Tf_PNs"
 
@@ -19,14 +19,12 @@ from config import BOT_TOKEN
 
 loop = asyncio.get_event_loop()
 bot = Bot(BOT_TOKEN, parse_mode="HTML")
-"""Markdown
+Markdown
 Форматирование текста
 <i>italic</i> курсив
-<d>bold</b> жирный"""
+<d>bold</b> жирный
 dp = Dispatcher(bot, loop=loop)
 
 if __name__=="__main__":
     from handlers import dp, send_to_admin
-    executor.start_polling(dp, on_startup=send_to_admin)
-
-
+    executor.start_polling(dp, on_startup=send_to_admin)"""""
